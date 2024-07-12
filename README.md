@@ -4,15 +4,11 @@ A utility script for recursively listing and processing files in a directory, ex
 
 ## Installation
 
-{{ edit_1 }}
-
 1 Clone this repository:
 
 ```bash
 git clone https://github.com/your-org/code2prompt.git
 ```
-
-{{ edit_2 }}
 
 2 Move the `code2prompt` script to a directory in your PATH:
 
@@ -26,7 +22,7 @@ mv code2prompt/code2prompt ~/bin/
 chmod +x ~/bin/code2prompt
 ```
 
-4 Ensure that `~/bin` is in your PATH by adding the following line to your `~/.bashrc` or `~/bash_profile`:
+4 Ensure that `~/bin` is in your PATH by adding the following line to your`~/.zshrc` or `~/.bashrc` or `~/bash_profile`:
 
 ```bash
 export PATH="$HOME/bin:$PATH"
@@ -41,10 +37,8 @@ source ~/.bashrc  # or source ~/.bash_profile
 or
 
 ```bash
-source ~/.zshrc  # or source ~/.bash_profile
+source ~/.zshrc  
 ```
-
-{{ edit_3 }}
 
 ## Usage
 
