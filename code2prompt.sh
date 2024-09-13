@@ -15,7 +15,7 @@ is_binary() {
 is_source_code() {
     local file="$1"
     local extension="${file##*.}"
-    local source_extensions=("c" "cpp" "h" "hpp" "java" "py" "js" "ts" "go" "rb" "php" "cs" "swift" "kt" "scala" "rs" "sh" "pl" "pm")
+    local source_extensions=("c" "cpp" "h" "hpp" "xml" "java" "py" "js" "ts" "go" "rb" "php" "cs" "swift" "kt" "scala" "rs" "sh" "pl" "pm")
     
     for ext in "${source_extensions[@]}"; do
         if [[ "$extension" == "$ext" ]]; then
